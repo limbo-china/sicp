@@ -1,0 +1,10 @@
+#lang racket
+;;;last pair
+(define (last-pair list)
+  (if(=(length list)1) ;;;(if(null? (cdr list))____another method
+     list
+     (last-pair (cdr list))))
+;;;test
+(last-pair (list 123 54354 563 65 23 5 3))
+(last-pair (list 13 4 63 8 1 5 45))
+     
