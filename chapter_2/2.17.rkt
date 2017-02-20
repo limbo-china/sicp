@@ -7,4 +7,3 @@
 ;;;test
 (last-pair (list 123 54354 563 65 23 5 3))
 (last-pair (list 13 4 63 8 1 5 45))
-     
